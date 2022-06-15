@@ -1,2 +1,1 @@
-# login_screen_practice
-sei la
+# simple login screen

@@ -1,0 +1,33 @@
+@keyframes left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-left {
+  animation-name: left;
+  animation-duration: 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+}
